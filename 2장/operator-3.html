@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연산자</title>
+</head>
+<body>
+    
+    <script>
+        var num = 10;
+
+        // 호출 한 후 1이 플러스가 되어있음 즉 alert엔 10이 나옴
+        alert(num++);           // 후위 증가연산자 : ;이 끝난 후 증가가 됨
+        // 호출 전 1이 플러스가 됨 즉 11 + 1 ==> 12
+        alert(++num);           // 전위 증가연산자 : ;이 끝나기 전에 이미 증가가 되어있다.
+        // 호출 후 플러스 1이 됨 즉 alert엔 12 그대로 나옴
+        alert(num++);
+        // 저장이 된 13이 되어서 출력
+        document.write(num);
+
+    </script>
+</body>
+</html>
